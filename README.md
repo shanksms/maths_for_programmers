@@ -29,9 +29,7 @@ We’ve seen that the dot product varies based on the angle between two vectors.
 Specifically, the dot product u · v ranges from 1 to −1 times the product of the lengths of u and v as the angle ranges  
 from 0 to 180°. We already saw a function that behaves that way, namely the cosine function. It turns out that the dot  
 product has an alternate formula. If |u| and |v| denote the lengths of vectors u and v, the dot product is given by:  
-\documentclass{article}
-\begin{document}
-  $$\vec{p} \cdot \vec{q}=\left | \vec{p} \right |\left | \vec{q} \right |\cos\theta $$
-\end{document}
+- $x + y$
+
 ## Linear algebra - ends
  
