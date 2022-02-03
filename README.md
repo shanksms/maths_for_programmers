@@ -11,7 +11,7 @@ The dot product takes two vectors and returns a scalar. You can think of it meas
 Two vectors which are pointing in the same direction will have positive dot product.
 ![](images/positive_dot_product.PNG)  
 Two vectors which are pointing in the different direction will have negative dot product.   
-
+![](images/negative_dot_product.PNG)
 
 ## Linear algebra - ends
  
