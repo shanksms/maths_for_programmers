@@ -1,8 +1,8 @@
 # maths_for_programmers
 
 ## references
-[maths for programmers] (https://learning.oreilly.com/library/view/math-for-programmers/9781617295355/OEBPS/Text/03.htm#heading_id_15)
-[maths notations in markdown file] (https://ashki23.github.io/markdown-latex.html)
+[maths for programmers] (https://learning.oreilly.com/library/view/math-for-programmers/9781617295355/OEBPS/Text/03.htm#heading_id_15)  
+[maths notations in markdown file] (https://ashki23.github.io/markdown-latex.html)  
 ## Linear algebra
 
 ### vector dot product
@@ -32,4 +32,14 @@ product has an alternate formula. If |u| and |v| denote the lengths of vectors u
 ![](images/dot_product.PNG)  
 
 ## Linear algebra - ends
+
+## Statistics
+### z-score
+[z-score] (https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap/measuring-position/v/z-score-introduction)  
+[z-score] (https://www.statisticshowto.com/probability-and-statistics/z-score/)  
+z-score or standard score is measure of how far from mean a datapoint is. Specifically, it's a measure of how many standard
+deviations below or above from mean a datapoint is.  
+![](images/zscore_formula.PNG)
+
+
  
