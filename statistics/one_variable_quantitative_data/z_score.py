@@ -12,6 +12,7 @@ input = []
 from math import fsum, sqrt
 from typing import Iterable
 from pprint import pprint
+import pandas as pd
 
 
 def mean(nums: Iterable):
@@ -29,6 +30,13 @@ def zScore(nums: Iterable):
     _mean = mean(nums)
     return [(x - _mean) / _std for x in nums]
 
+def zScore_using_pandas(nums: Iterable):
+    df = pd.DataFrame({'returns': nums})
+    _std = df.std().loc['returns']
+    _mean = df.mean().loc['returns']
+    df['z_scores'] =  (df['returns'] - _mean) / _std
+    return list(df['z_scores'])
 
 if __name__ == '__main__':
     pprint(zScore([4, 5, 6, 6, 6, 7, 8, 12, 13, 13, 14, 18]))
+    pprint(zScore_using_pandas([4, 5, 6, 6, 6, 7, 8, 12, 13, 13, 14, 18]))
