@@ -3,6 +3,7 @@
 ## references
 [maths for programmers] (https://learning.oreilly.com/library/view/math-for-programmers/9781617295355/OEBPS/Text/03.htm#heading_id_15)  
 [maths notations in markdown file] (https://ashki23.github.io/markdown-latex.html)  
+[statistics on khan academy] (https://www.khanacademy.org/math/ap-statistics)  
 ## Linear algebra
 
 ### vector dot product
